@@ -34,6 +34,7 @@ header{
 header h1{
     font-family: 'tittle';
     margin: 0.5em;
+    margin-bottom: 0px;
 }
 main{
     font-size: 1.2em;
@@ -56,11 +57,14 @@ main section{
     border-top-left-radius: 10px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.26);
 }
-section h1, h2{
-    margin: 0.5em;
+section h2{
+    margin: 0.5em -10px;
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    padding: 4px;
+    
 }
 #video{
     padding: 15px;
@@ -77,6 +81,16 @@ main p{
     text-align: justify;
     text-indent: 20px;
     margin: 1em;
+}
+#list{
+    display: block;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+#list li{
+    list-style: none;
+
 }
 #button{
     background-color: rgb(255, 0, 0);
