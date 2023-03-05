@@ -131,6 +131,17 @@ footer span#ass{
         width: 96%;
     }
 }
+@media screen and (max-width: 600px){
+    main section{
+        width: 95%;
+        padding: 5px;
+       
+    }
+    #button{
+        width: 95%;
+    }
+}
+
 
     
 
