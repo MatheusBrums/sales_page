@@ -144,6 +144,19 @@ footer span#ass{
     #button{
         width: 96%;
     }
+    #video iframe{
+        width: 98%;
+    }
+    #list{
+        display: block;
+        margin: auto;
+        text-align: center;
+        list-style: none;
+    }
+    #list li{
+        list-style: none;
+    
+    }
 }
 @media screen and (max-width: 600px){
     main section{
@@ -157,6 +170,19 @@ footer span#ass{
     }
     #video{
         padding: 0px;
+    }
+    #video iframe{
+        width: 98%;
+    }
+    #list{
+        display: block;
+        margin: auto;
+        text-align: center;
+        list-style: none;
+    }
+    #list li{
+        list-style: none;
+    
     }
 }
 
