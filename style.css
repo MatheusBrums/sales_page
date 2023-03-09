@@ -209,6 +209,14 @@ footer span#ass{
     }
     #whatsapp{
         transform: translateY(90px);
+        width: 200px;
+    }
+    #whatsapp img{
+        max-width: 40px;
+        transform: translate(2px, 2px);
+    }
+    #duvid{
+        transform: translate(-10px, -6px);
     }
 }
 @media screen and (max-width: 600px){
@@ -240,7 +248,15 @@ footer span#ass{
     }
     #whatsapp{
         transform: translateY(0px);
+        width: 200px;
     
+    }
+    #whatsapp img{
+        max-width: 40px;
+        transform: translate(2px, 2px);
+    }
+    #duvid{
+        transform: translate(-10px, -6px);
     }
 }
 
