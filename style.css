@@ -12,6 +12,7 @@
 *{
     margin: 0;
     padding: 0;
+    line-height: 1.3em;
 }
 body{
     background-color: rgb(82, 82, 82);
@@ -21,7 +22,7 @@ body{
 }
 header{
     margin: auto;
-    max-width: 850px;
+    max-width: 950px;
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 15px;
@@ -37,17 +38,20 @@ header h1{
     margin-bottom: 0px;
 }
 main{
+    position: relative;
     font-size: 1.2em;
     background-image: url('img/shutterstock_1704013489-scaled.jpg');
     background-size: cover;
     margin: auto;
-    max-width: 850px;
+    max-width: 950px;
     box-sizing: border-box;
     padding: 20px;
     box-shadow: 0px 0px 13px rgba(214, 207, 175, 0.26);
+    padding-bottom: 60px;
     
 }
 main section{
+    position: static;
     display: block;
     margin: auto;
     width: 80%;
@@ -62,8 +66,36 @@ section h2{
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, transparent, black, transparent);
+    background-image: linear-gradient(to right, transparent , rgba(255, 0, 0, 0.349), transparent );
     padding: 4px;
+    
+}
+#whatsapp{
+    background-color: white;
+    margin: -10px;
+    width: 248px;
+    position: fixed;
+    border-radius: 0px 100px 100px 0px;
+    transform: translateY(300px);
+}
+#whatsapp:hover{
+    border: 3px solid green;
+    
+}
+#duvid{
+    transform: translate(-20px, -20px);
+    text-shadow: none;
+}
+#whatsapp div{
+    display: inline-block;
+}
+#whatsapp img{
+    max-width: 80px;
+    display: inline-block;
+}
+#whatsapp a{
+    text-decoration: none;
+    color: black;
     
 }
 #video{
@@ -74,8 +106,12 @@ section h2{
     border: 2px solid white;
     border-radius: 5px;
 }
-main>a{
+main a{
     text-decoration: none;
+    color: unset;
+}
+strong{
+    color: red;
 }
 main p{
     text-align: justify;
@@ -91,6 +127,13 @@ main p{
 #list li{
     list-style: none;
 
+}
+#relatos{
+    text-align: center;
+}
+#relatos img{
+    max-width: 300px;
+    
 }
 #button{
     background-color: rgb(255, 0, 0);
@@ -119,23 +162,28 @@ footer{
     box-sizing: border-box;
     padding: 10px;
     margin: auto;
-    max-width: 850px;
+    max-width: 950px;
     background-color: rgb(39, 39, 39);
     color: white;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 0px 13px rgba(214, 207, 175, 0.26);
-    
+
 }
 footer span#ass{
     font-family: 'ass';
     font-size: 0.8em;
     
 }
-
+@media screen and (max-width: 850px){
+    #whatsapp{
+        transform: translateY(100px);
+    }
+}
 @media screen and (max-width: 700px){
     main{
         padding: 20px 0px;
+        padding-bottom: 70px;
     }
     main section{
         width: 96%;
@@ -155,13 +203,16 @@ footer span#ass{
     }
     #list li{
         list-style: none;
-    
+    }
+    #whatsapp{
+        transform: translateY(90px);
     }
 }
 @media screen and (max-width: 600px){
     main section{
         width: 98%;
         padding: 5px;
+        padding-bottom: 70px;
        
     }
     #button{
@@ -183,6 +234,9 @@ footer span#ass{
     #list li{
         list-style: none;
     
+    }
+    #whatsapp{
+        transform: translateY(30px);
     }
 }
 
