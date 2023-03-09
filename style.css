@@ -73,10 +73,10 @@ section h2{
 #whatsapp{
     background-color: white;
     margin: -10px;
-    width: 248px;
+    width: 235px;
     position: fixed;
     border-radius: 0px 100px 100px 0px;
-    transform: translateY(300px);
+    transform: translateY(308px);
 }
 #whatsapp:hover{
     border: 3px solid green;
@@ -85,6 +85,9 @@ section h2{
 #duvid{
     transform: translate(-20px, -20px);
     text-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 3px;
 }
 #whatsapp div{
     display: inline-block;
