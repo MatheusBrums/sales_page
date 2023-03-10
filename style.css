@@ -76,7 +76,7 @@ section h2{
     width: 235px;
     position: fixed;
     border-radius: 0px 100px 100px 0px;
-    transform: translateY(308px);
+    transform: translateY(305px);
 }
 #whatsapp:hover{
     border: 3px solid green;
@@ -180,7 +180,7 @@ footer span#ass{
 }
 @media screen and (max-width: 850px){
     #whatsapp{
-        transform: translateY(100px);
+        transform: translateY(150px);
     }
 }
 @media screen and (max-width: 700px){
@@ -208,7 +208,7 @@ footer span#ass{
         list-style: none;
     }
     #whatsapp{
-        transform: translateY(90px);
+        transform: translateY(-100px);
         width: 200px;
     }
     #whatsapp img{
@@ -247,7 +247,7 @@ footer span#ass{
     
     }
     #whatsapp{
-        transform: translateY(0px);
+        transform: translateY(-150px);
         width: 200px;
     
     }
