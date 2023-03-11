@@ -135,8 +135,13 @@ main p{
     text-align: center;
 }
 #relatos img{
-    max-width: 300px;
+    max-width: 90%;
+    border: 1px solid rgba(255, 0, 0, 0.438);
+    border-radius: 10px;
     
+}
+#relatos img:hover{
+
 }
 #button{
     background-color: rgb(255, 0, 0);
@@ -218,6 +223,11 @@ footer span#ass{
     #duvid{
         transform: translate(-10px, -6px);
     }
+    #relatos img{
+        max-width: 100%;
+        
+        
+    }
 }
 @media screen and (max-width: 600px){
     main section{
@@ -257,6 +267,11 @@ footer span#ass{
     }
     #duvid{
         transform: translate(-10px, -6px);
+    }
+    #relatos img{
+        max-width: 100%;
+        
+        
     }
 }
 
